@@ -1,6 +1,6 @@
 """
 LANGKAH 0 - DATA
-Data asli dari repositori GA-pairwise-recommender-system (Qomariyah & Kazakov, 2021), dipakai apa adanya:
+Data asli dari repositori GA-pairwise-recommender-system (Qomariyah & Kazakov, 2021):
   jsonAttraction.txt  201 destinasi Jabodetabek (HTM Rp/orang, lama kunjungan jam, tag, koordinat)
   distanceMatrix.csv  jarak antardestinasi dalam meter  (-1 = tidak ada rute)
   durationMatrix.csv  waktu tempuh antardestinasi dalam detik  (-1 = tidak ada rute)

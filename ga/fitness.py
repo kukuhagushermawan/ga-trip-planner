@@ -9,7 +9,6 @@ LANGKAH 2 - FUNGSI FITNESS
   penalti        = 10 x (kelebihan biaya relatif + kelebihan durasi relatif)
   fitness        = (1 + minat) / (0,01 + cost_score + duration_score + penalti)
 
-Tanpa penalti dan bonus minat, rumusnya sama dengan paper acuan: 1 / (cost_score + duration_score).
 """
 import math
 from dataclasses import dataclass, field
