@@ -19,7 +19,6 @@ TAXI_RATE_PER_KM = 5000
 SEATS_PER_VEHICLE = 4
 PENALTY = 10
 EPSILON = 0.01
-# Aturan kode asli: sel -1 atau 0 (di luar diagonal) diganti 15 km / 1.300 detik.
 FALLBACK_KM = 15
 FALLBACK_HOURS = 1300 / 3600
 

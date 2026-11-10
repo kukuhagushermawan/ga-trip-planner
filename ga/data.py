@@ -82,7 +82,7 @@ def parse_destinasi(text):
 
 
 def parse_matriks(text):
-    """Matriks format asli: header `origin,<nama...>`, lalu satu baris per asal."""
+    """Matriks: header `origin,<nama...>`, lalu satu baris per asal."""
     rows = [r for r in csv.reader(text.splitlines()) if r]
     labels = rows[0][1:]
     n = len(labels)
